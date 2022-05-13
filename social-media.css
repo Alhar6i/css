@@ -1,0 +1,35 @@
+/*link social*/
+.profile-social-links{
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  .profile-social-links li{
+    display: inline-block;
+    margin: 0 2px;
+  }
+  .profile-social-links li a{
+    width: 36px;
+    height:36px;
+    display:block;
+    background:#f1f1f1;
+    border-radius:50%;
+    -webkit-transition: all 2.75s cubic-bezier(0,.83,.17,1);
+    -moz-transition: all 2.75s cubic-bezier(0,.83,.17,1);
+    -o-transition: all 2.75s cubic-bezier(0,.83,.17,1);
+    transition: all 2.75s cubic-bezier(0,.83,.17,1);
+    transform-style: preserve-3d;
+  }
+  .profile-social-links li a img{
+    width:32px;
+    height:32px;
+    margin:2 auto 0;
+    padding: 0 0 0 4px;
+
+  }
+  .profile-social-links li a:hover{
+    background:#ddd;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+  }
+  

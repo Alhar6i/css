@@ -1,0 +1,161 @@
+body {
+    background: #F4F7FD;
+    margin-top: 8px;
+    padding-top: 8px;
+}
+
+span.line {
+    width: 85%;
+    text-align: justify;
+    display: inline-block;
+}
+
+br {
+    display: block;
+    margin: 8px 0;
+}
+
+.card-margin {
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    border: 0;
+    box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid #e6e4e9;
+    border-radius: 8px;
+}
+
+.card .card-header.no-border {
+    border: 0;
+}
+
+.card .card-header {
+    background: none;
+    padding: 0 0.9375rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    margin-bottom: 12px;
+}
+
+.card-header:first-child {
+    border-radius: calc(8px - 1px) calc(8px - 1px) 0 0;
+}
+
+
+.widget-49 .widget-49-title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ebf7ff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-base {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0fafb;
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid #68CBD7;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-day {
+    color: #68CBD7;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-month {
+    color: #68CBD7;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-year {
+    color: #68CBD7;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-base .widget-49-date-author {
+    color: #68CBD7;
+    line-height: 1;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-meeting-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+}
+
+.widget-49 .widget-49-meeting-action {
+    text-align: left;
+}
+
+.widget-49 .widget-49-meeting-action a {
+    text-transform: uppercase;
+}
+
+.fa-gratipay {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.fa-gratipay:hover {
+    color: #E74C3C;
+}
+.fa-brands, .fa-regular.fa-envelope {
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 999px;
+    color: #333;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.fa-brands:hover, .fa-regular.fa-envelope:hover {
+    color: #f8f9fa;
+    background: #333;
+}
+
+.fa-brands.fa-facebook-f {
+    padding: 5px 8px;
+
+}
